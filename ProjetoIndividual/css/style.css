@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-family: "Sedgwick Ave Display", cursive;
+  color: rgb(10, 9, 15);
+  text-align: center;
+}
+main form div a {
+  text-decoration: none;
+  color: white;
+}
+.menu {
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  border-right: 1px solid #c0c0c0;
+  list-style: none;
+}
+
+.menu li a {
+  color: #f7f4f4;
+  text-decoration: none;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li a:hover {
+  background: #acadad;
+  color: #cbf6f5;
+}
+
+.menu li ul {
+  background-color: #d1cfcf;
+  display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ffffff;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  color: #ffffff;
+}
+
+input,
+textarea {
+  font: 2em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+html {
+  min-height: 100%;
+  background-image: url(/ProjetoIndividual/img/bemvindo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
